@@ -1,0 +1,171 @@
+.topnav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 90px;
+  
+}
+
+.logo {
+    width:39px;
+    margin-top: 10px;
+    margin-left: 50px;
+    height:20px;
+    order: 0;
+    flex:auto;
+    align-self: flex-start;
+
+}
+a {
+    padding: 1.5%;
+    color: #671449;
+    text-decoration: none;
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-weight: lighter;
+    vertical-align: middle;
+}
+
+.drop-down {
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.herospace {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    width:100%;
+    margin-top:50px;
+}
+.heroimage {
+    display: flex;
+    flex-flow: column;
+    align-self: flex-start;
+    vertical-align: middle;
+    margin: 5px 10px 5px 10px;
+}
+.herotext {
+    display: flex;
+    flex-flow: column;
+    margin: 75px -10px 10px 10px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    color: #671449;
+    margin-bottom: -2%;
+    margin-top:-5%
+}
+
+h2 {
+ font-family:'Source Sans Pro' , sans-serif;
+ font-size:30px;
+ font-weight:normal;
+ color: #671449;
+ margin-bottom: -2%;
+}
+
+h3 {
+    font-family:'Source Sans Pro' , sans-serif;
+    font-size:30px;
+    font-weight: lighter;
+    color:#0D3442;
+}
+
+button {
+    color: white;
+    background-color: #671449;
+    height: 50px;
+    width: 200px;
+    border: none;
+    font-size: 20px;
+    font-family:'Source Sans Pro' , sans-serif;
+    font-weight: regular;
+    
+
+}
+.expertise-heading h1{
+   margin-top: 180px;
+   margin-left: 90px;
+   font-size: 70px;
+
+}
+
+.expertise {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px 80px;
+    justify-content: space-between;
+}
+
+.expertise h3 {
+    font-size: 20px;
+}
+
+
+.research {
+    padding: 60px 50px 60px 50px;
+    width: 25%;
+    flex: auto;
+ 
+
+}
+
+.ideation {
+    padding: 50px 50px 60px 50px;
+    width: 25%;
+    flex: auto;
+
+}
+
+.interface {
+    padding: 112px 50px 60px 50px;
+    width: 25%;
+    flex: auto;
+
+}
+.bottomnav {
+    display: flex;
+    flex-direction:row-reverse;
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 50px;
+
+}
+
+.bottomlinks {
+    padding: 1%;
+    order: 2;
+    align-self:flex-start;
+    width:90%;
+    vertical-align: middle;
+    font-family: 'Source Sans Pro' , sans-serif;
+    
+    
+
+    
+}
+.bottomlogo {
+    width:39px;
+    height:20px;
+    align-self: flex-end;
+    order: 1;
+    margin-bottom: 15px;
+}
+
+.copyright {
+    align-self: flex-end;
+    order: 0;
+    margin-left:2%;
+    margin-right:10%;
+    font-family: 'Source Sans Pro' , sans-serif;
+    color: #671449;
+
+}
